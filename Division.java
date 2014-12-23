@@ -11,9 +11,13 @@ public class Division {
 		int num2 = sc.nextInt();
 		int result = num1;
 		int count = 0;
-		for(count = 0; result >= num2; count++) {
-			result = result - num2;
+		if (num2 == 0) {
+			System.out.println("Cannot divide by zero.");
+		} else {
+			for(count = 0; result >= num2; count++) {
+				result = result - num2;
+			}
+			System.out.println(num1 + " divided by " + num2 + " equals " + count + " remainder " + result + ".");
 		}
-		System.out.println(num1 + " divided by " + num2 + " equals " + count + " remainder " + result + ".");
 	}
 }

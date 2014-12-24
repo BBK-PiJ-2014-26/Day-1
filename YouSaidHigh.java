@@ -29,7 +29,7 @@ public class YouSaidHigh {
 				consecutive = false;
 			}
 			while (!finished) {
-				System.out.print("Enter a positive number or -1 to quit: ");
+				System.out.print("Enter a number or -1 to quit: ");
 				sc = new Scanner(System.in);
 				num2 = sc.nextInt();
 				if (num2 == -1) {
@@ -51,7 +51,7 @@ public class YouSaidHigh {
 				consecutive = false;
 			}
 			while (!finished) {
-				System.out.print("Enter a positive number or -1 to quit: ");
+				System.out.print("Enter a number or -1 to quit: ");
 				sc = new Scanner(System.in);
 				num2 = sc.nextInt();
 				if (num2 == -1) {
